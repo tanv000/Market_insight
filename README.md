@@ -132,14 +132,12 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
 ```
 
 ### Usage
-```bash
 Run the Streamlit app:
-
-bash
-Copy
-Edit
+```bash
 streamlit run app.py
+```
 How to Use
+```bash
 Step 1: Enter financial news article URLs in the sidebar (up to 3) or upload a .txt file with URLs.
 
 Step 2: Click “Process Articles” to fetch, chunk, embed, and index the articles.
