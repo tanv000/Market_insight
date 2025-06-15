@@ -1,0 +1,7 @@
+.venv
+.env
+notebooks
+__pycache__
+main.txt
+faiss_gemini_cache.pkl
+faiss_store_groq.pkl
