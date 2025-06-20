@@ -45,20 +45,9 @@ MARKET-INSIGHT combines multiple state-of-the-art Natural Language Processing (N
 ## System Architecture
 
 User Inputs (URLs / Uploads)
-↓
-Document Loader (UnstructuredURLLoader)
-↓
-Text Splitter (RecursiveCharacterTextSplitter)
-↓
-Embeddings Generation (HuggingFace Embeddings)
-↓
-Vector Indexing (FAISS)
-↓
-Query Input → Retriever (FAISS) → Relevant Chunks
-↓
-Prompt Construction for LLM (Google Gemini)
-↓
-LLM Response → Answer or Summary Display
+
+![image](https://github.com/user-attachments/assets/24a4b1e6-cad3-4ea5-bbe5-63a4a9261b47)
+
 
 
 ---
